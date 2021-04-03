@@ -1,6 +1,6 @@
 class IntAndFloat(Exception):
 
-    def __init__(self,txt):
+    def __init__(self, txt):
         self.txt = txt
 
 
@@ -24,4 +24,3 @@ while True:
     if flag == True:
         print("Окончание работы")
         break
-
